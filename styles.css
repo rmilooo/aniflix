@@ -1,0 +1,46 @@
+body{
+    background-color: #1f1f1f;
+}
+@media (min-width: 1000px){
+    body{
+        margin-top: 3%;
+    }
+}
+@media (max-width: 1000px){
+    body{
+        margin-top: 7%;
+    }
+}
+html, body{
+    height: 100%;
+  }
+
+@media (min-width: 1000px){
+.container{
+    margin-left: 4%;
+    height: 100%;
+}
+.center-me{
+    width: 20%;
+    transition: all 0.5s ease;
+}
+.center-me:hover{
+    transform: scale(1.2) perspective(1px)
+}
+}
+@media (max-width: 1000px){
+    .container{
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 100%;
+    }
+      
+    .center-me{
+        width: 90px;
+        height: 90px;
+        transition: all 0.5s ease;
+    }
+    .center-me:hover{
+        transform: scale(1.2) perspective(1px)
+    }
+}
