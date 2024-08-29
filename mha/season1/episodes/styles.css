@@ -27,6 +27,10 @@ body {
       background-color: #333;
       border-radius: 5px;
 }
+a, a:hover, a:visited, a:active {
+      color: inherit;
+      text-decoration: none;
+     }
 .active{
       color: #9e0de0;
       font-weight: bold;
@@ -34,7 +38,3 @@ body {
       font-style: italic;
       background-color: #9e0de0;
 }
-a, a:hover, a:visited, a:active {
-    color: inherit;
-    text-decoration: none;
-   }
