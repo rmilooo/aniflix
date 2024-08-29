@@ -33,3 +33,13 @@ a, a:hover, a:visited, a:active {
 .active{
       background-color: #9e0de0;
 }
+@media (min-width: 1000px){
+      body {
+            -moz-transform: scale(200); /* for Firefox, default 1*/
+            zoom:200%; /* For Chrome, IE, default 100%*/
+      }
+      video{
+            width: 75%;
+            height: auto;
+      }
+}
