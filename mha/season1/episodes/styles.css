@@ -10,7 +10,6 @@ body {
       margin-bottom: 10px;
 }
 .season {
-    background-color: #113344;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bold;
@@ -32,9 +31,5 @@ a, a:hover, a:visited, a:active {
       text-decoration: none;
      }
 .active{
-      color: #9e0de0;
-      font-weight: bold;
-      font-size: 1.2em;
-      font-style: italic;
       background-color: #9e0de0;
 }
