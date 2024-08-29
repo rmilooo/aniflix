@@ -32,6 +32,7 @@ body {
       font-weight: bold;
       font-size: 1.2em;
       font-style: italic;
+      background-color: #9e0de0;
 }
 a, a:hover, a:visited, a:active {
     color: inherit;
